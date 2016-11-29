@@ -1,0 +1,52 @@
+.btn {
+ display: inline-block;
+border-radius: 5px;
+border-style: solid;
+border-width: 1px;
+}
+
+.white {
+  border-color: rgba (0, 0, 0, 0.2);
+  color: rgba (0, 0, 0 ,0.6);
+
+}
+
+.green {
+border-color: #00C000;
+background-color: #64f364;
+background-image: background: linear-gradient(to bottom, rgba(100,243,100,1) 2%,rgba(43,212,43,1) 7%,rgba(100,243,100,1) 30%,rgba(100,243,100,1) 100%);
+color: white;
+}
+
+.large {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.small {
+  width: 200px;
+  height: 30px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1180px) {
+
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+  }
+
+  .small {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+  }
+  }
